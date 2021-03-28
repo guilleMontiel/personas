@@ -29,17 +29,16 @@ ESTRUCTURA DE CARPETAS
 
 REQUERIMIENTOS
 ------------
-
-<a href="https://docs.docker.com/engine/install/" target="_blank">Docker</a>
-<a href="https://docs.docker.com/compose/install/">Docker-compose</a>
 Mysql 5.7.33
 PHP 7.0
+
 
 INSTALACION
 ------------
 
 ### Instalacion con Docker compose
 
-Realizar git clone del proyecto.
+Tener instalado <a href="https://docs.docker.com/engine/install/" target="_blank">Docker</a> y <a href="https://docs.docker.com/compose/install/">Docker-compose</a><br>
+Realizar git clone del proyecto.<br>
 Entrar en la carpeta del proyecto y ejecutar docker-compose up -d --build
 
