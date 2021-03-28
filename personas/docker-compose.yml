@@ -5,18 +5,15 @@ services:
     context: 'config-docker-php'
     dockerfile: Dockerfile    
    ports:
-      - "8081:80"
+      - "8083:80"
    volumes:
-      - ~/.composer-docker/cache:/root/.composer/cache:delegated
-      - ./:/app:delegated
+      - ./:/var/www/html/personas/
  mysqldb:
-    image: mysql
+    image: mysql:5.7.33
     restart: always
     environment:
-         MYSQL_ROOT_PASSWORD: 1234
+         MYSQL_ROOT_PASSWORD: root
          MYSQL_DATABASE: guilleDB
-    ports:
-      - "5432:5432"
     volumes:
      - ./mysql-data:/var/lib/mysql
  phpmyadmin:
@@ -26,4 +23,4 @@ services:
     environment:
           - PMA_ARBITRARY=1
     ports:
-        - "8082:80"
+        - "8084:80"

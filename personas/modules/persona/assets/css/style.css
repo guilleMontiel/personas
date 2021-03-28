@@ -1,0 +1,24 @@
+.separado-top{
+    margin-top: 4rem !important;
+}
+.separado-bottom{
+    margin-bottom: 1rem !important;
+}
+.fuente-14{
+    font-size: 14px;
+}
+.fuente-16{
+    font-size: 16px;
+}
+.paginado .page-item.active .page-link {
+    z-index: 1;
+    color: #008800;
+    background-color: #c3e6cb;
+    border-color: #c3e6cb;
+}
+
+.page-link {
+    color: #1fa16e;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
