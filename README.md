@@ -1,7 +1,8 @@
 # personas
 Administrador de Personas 
-Desarrollado en Yii 1.4
+Desarrollado en Yii 2
 Bootstrap 4
-AngularJs
 Mysql
-Docker
+Docker.
+ABM de personas
+ABM de direcciones relacionadas a las personas.
