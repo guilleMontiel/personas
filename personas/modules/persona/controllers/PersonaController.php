@@ -10,5 +10,22 @@ class PersonaController extends \yii\web\Controller
         $personas = Persona::find()->all();
         return $this->render('admin',array('personas'=>$personas));
     }
+    
+    public function actionNew(){
+        
+    }
+    
+    
+    public function actionView(){
+        return $this->render('view');
+    }
+    
+    public function actionDelete($id){
+        
+    }
+    
+    public function actionUpdate(){
+        
+    }
 
 }

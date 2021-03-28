@@ -2,7 +2,7 @@
     <div class="row" style="margin-top: 15vh;">
         <div class="col-sm-12 col-md-6">
             <div class="card text-center shadow-lg">
-                <div class="card-header"><i class="fa fa-users fa-6x"></i></div>
+                <div class="card-header"><img src="images/persons.svg" width="140" class="img-responsive"></div>
                 <div class="card-body">
                     <p><b>Administrar Personas</b></p>
                     <p>Desde aqui se pueden administrar todos los datos de las personas.</p>
@@ -15,7 +15,7 @@
         
         <div class="col-sm-12 col-md-6">
             <div class="card text-center shadow-lg">
-                <div class="card-header"><i class="fas fa-home fa-6x"></i></div>
+                <div class="card-header"><img src="images/home.svg" width="140" class="img-responsive"></div>
                 <div class="card-body">
                     <p><b>Administrar Direcciones</b></p>
                     <p>Desde aqui se pueden administrar las direcciones de las personas.</p>

@@ -32,7 +32,7 @@
                     <td><?= $persona->telefono ?></td>
                     <td>
                         <a href="<?= Yii::$app->urlManager->createUrl('view') ?>"><i class="fa fa-eye"></i></a>
-                        <a href="<?= Yii::$app->urlManager->createUrl('delete') ?>"><i class="fa fa-close"></i></a>
+                        <a class="text-danger" href="<?= Yii::$app->urlManager->createUrl('delete') ?>"><i class="fa fa-times-circle"></i></a>
                         <a href="<?= Yii::$app->urlManager->createUrl('direccion/administrar/persona').'/'.$persona->dni ?>"><i class="fa fa-home"></i></a>
                     </td>
                 </tr>

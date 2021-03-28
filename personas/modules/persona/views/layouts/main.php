@@ -15,7 +15,7 @@ use app\modules\persona\assets\CoreAssets;
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#563d7c">
     <!--<link rel="shortcut icon" href="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/15447218331582994871-512.png" type="image/x-icon" />-->
-    
+    <link href="images/person.svg" type="image/x-icon" rel="icon" />
     <?php CoreAssets::register($this); ?>
     <?php //OrdenAssets::register($this); ?>
     
